@@ -11,6 +11,7 @@
 		C3B64C421B55321700E1A693 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C3B64C411B55321700E1A693 /* AppDelegate.m */; };
 		C3B64C4A1B55321700E1A693 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C3B64C491B55321700E1A693 /* Images.xcassets */; };
 		C3B64C591B55321800E1A693 /* EABrightcoveTestAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C3B64C581B55321800E1A693 /* EABrightcoveTestAppTests.m */; };
+		C3B64C641B55366600E1A693 /* EAMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3B64C631B55366600E1A693 /* EAMainViewController.m */; };
 		E7526FA20263366758358B7C /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A2EDB04F9CBFCFD12FCF151 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -37,6 +38,8 @@
 		C3B64C521B55321800E1A693 /* EABrightcoveTestAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EABrightcoveTestAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3B64C571B55321800E1A693 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C3B64C581B55321800E1A693 /* EABrightcoveTestAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EABrightcoveTestAppTests.m; sourceTree = "<group>"; };
+		C3B64C621B55366600E1A693 /* EAMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EAMainViewController.h; sourceTree = "<group>"; };
+		C3B64C631B55366600E1A693 /* EAMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EAMainViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +103,8 @@
 			children = (
 				C3B64C401B55321700E1A693 /* AppDelegate.h */,
 				C3B64C411B55321700E1A693 /* AppDelegate.m */,
+				C3B64C621B55366600E1A693 /* EAMainViewController.h */,
+				C3B64C631B55366600E1A693 /* EAMainViewController.m */,
 				C3B64C491B55321700E1A693 /* Images.xcassets */,
 				C3B64C3C1B55321700E1A693 /* Supporting Files */,
 			);
@@ -265,6 +270,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C3B64C641B55366600E1A693 /* EAMainViewController.m in Sources */,
 				C3B64C421B55321700E1A693 /* AppDelegate.m in Sources */,
 				C3B64C3F1B55321700E1A693 /* main.m in Sources */,
 			);
