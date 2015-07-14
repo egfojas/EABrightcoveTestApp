@@ -2,4 +2,4 @@ source 'https://github.com/CocoaPods/Specs.git'
 
 pod 'AFNetworking'
 pod 'BlocksKit'
-pod 'Brightcove-Player-SDK"'
+pod 'Brightcove-Player-SDK'
